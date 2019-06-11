@@ -35,5 +35,5 @@ def move(board,input,char='X')
 end
 
 def turn(board)
-  
+
 end
