@@ -41,6 +41,6 @@ def turn(board)
   if valid_move?(board, input)
     move(board,input,char='X')
   else
-    puts "Please submit another input"
+    "Please submit another input"
     turn(board)
 end
