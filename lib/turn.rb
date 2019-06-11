@@ -25,3 +25,15 @@ def valid_move?(board,index)
     return false
   end
 end
+
+def input_to_index(input)
+    input = input.to_i - 1
+end
+
+def move(board,input,char='X')
+  board[input] = char
+end
+
+def turn(board)
+  
+end
