@@ -43,4 +43,5 @@ def turn(board)
   else
     "Please submit another input"
     turn(board)
+  end
 end
